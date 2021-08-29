@@ -132,7 +132,7 @@ a #pale_gray:hover {
 a #Aquamarine:hover {
     background-color: #7FFFD4;
     opacity:0.5;
-    color: white;
+    color: black;
 }
 
 
@@ -140,6 +140,12 @@ a #Aquamarine:hover {
 
 #DarkOliveGreen {
     background-color: #556B2F;
+    color: white;
+}
+
+a #DarkOliveGreen:hover {
+    background-color: #556B2F;
+    opacity: 0.5;
     color: white;
 }
 
@@ -173,6 +179,11 @@ a #Aquamarine:hover {
     color: white;
 }
 
+#Salmon {
+    background-color: #FA8072;
+    color: white;
+}
+
 
 
 ul.color {
@@ -188,9 +199,9 @@ ul.color {
 ul.color li {
     
     text-align: center;
-    width: 250px;
-    height: 250px;
-    margin: 10px 10px;
+    width: 280px;
+    height: 280px;
+    margin: 10px 5px;
     padding: 5px 5px;
     border-radius: 3px;
     display: inline-block;
@@ -247,8 +258,8 @@ ul.font  li{
     top: 72px;
     display: inline-block;
     height: 200px;
-    width: 550px;
-    margin: 10px 10px;
+    width: 480px;
+    margin: 10px 21px 10px 0;
     vertical-align: middle;
 }
 
@@ -288,7 +299,8 @@ div.styles_block {
 
 
 section div.styles_block ul {
-    width: 80%;
+    text-align: center;
+    width: 50%;
     margin: 0 auto;
     
 }
