@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color:whitesmoke;
+    font-weight: 400;
+    font-family: "Work Sans";
+
+}
+
+.container {
+    height: 25px;
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 15px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    max-height: 75px;
+    background-color: #55d6aa;
+    z-index: 1;
+    opacity: 0.9;
+}
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container .navigation {
+    border: 2px dotted black;
+    float: left;
+    padding: 10px 0;
+    margin: 5px 0;
+}
+
+nav {
+    
+    float: right;
+    
+   
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 75px;
+    padding-top: 27px;
+    position: relative;
+        
+    
+}
+
+nav ul li a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 26px 5px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+nav a::before {
+    content: "";
+    display: block;
+    height: 5px;
+    
+    background-color: #444;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+}
+
+
+nav a:hover::before {
+    width: 100%;
+}
+
+.section {
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: #444; 
+    opacity: 0.9;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: 300;
+    position: relative;
+    top: 72px;
+    height: 30px;
+}
+
+
+
+
+#pale_gray  {
+    
+    background-color: #333;
+    color: white;
+}
+
+a #pale_gray:hover {
+    background-color: #333;
+    opacity: 0.9;
+    color: white;
+}
+
+
+
+
+#Aquamarine {
+    background-color: #7FFFD4;
+    color: white;
+}
+
+a #Aquamarine:hover {
+    background-color: #7FFFD4;
+    opacity:0.5;
+    color: white;
+}
+
+
+
+
+#DarkOliveGreen {
+    background-color: #556B2F;
+    color: white;
+}
+
+#DarkSeaGreen  {
+    background-color: #8FBC8F;
+    color: white;
+}
+
+#DarkOrange {
+    background-color: #FF8C00;
+    color: white;
+}
+
+#LightBlue {
+    background-color: #ADD8E6;
+    color: white;
+}
+
+#LightSteelBlue {
+    background-color: #B0C4DE;
+    color: white;
+}
+
+#LightSlateGray {
+    background-color: #778899;
+    color: white;
+}
+
+#Sienna {
+    background-color: #A0522D;
+    color: white;
+}
+
+
+
+ul.color {
+    width: 80%;
+    margin: 0 auto;
+    
+    position: relative;
+    top: 70px;
+   
+      
+ }
+ 
+ul.color li {
+    
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    margin: 10px 10px;
+    padding: 5px 5px;
+    border-radius: 3px;
+    display: inline-block;
+    list-style: none;
+    vertical-align: middle;
+    
+ }
+ 
+.color .colorName {
+    position: relative;
+    top: 40px;
+    height: 50px;
+    color: white;
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 2px;
+    display: block;
+ }
+ 
+.color .hex {
+    position: relative;
+    top: 40px;
+    display: block;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    
+ }
+
+.color .comment {
+    position: relative;
+    top: 60px;
+    height: 100px;
+    color: white;
+    font-weight: 200;
+    font-size: 16px;
+    letter-spacing: 2px;
+    display: inline-block;
+    width: 90%;
+    
+
+}
+
+
+ul.font {
+    width: 80%;
+    margin: 0 auto;
+}
+
+ul.font  li{
+       
+    border: 1px solid black;
+    position: relative;
+    top: 72px;
+    display: inline-block;
+    height: 200px;
+    width: 550px;
+    margin: 10px 10px;
+    vertical-align: middle;
+}
+
+ul.font h3 {
+    height: 40px;
+    padding-bottom: 10px;
+    font-size: 35px;
+}
+
+ul.font p {
+    padding: 10px 5px;
+    color: black;
+    opacity: 0.8;
+    font-size: 18px;
+}
+ul.font strong {
+    font-weight: 700;
+}
+
+#Work_Sans {
+    font-family: "Work Sans";
+}
+
+#Nunito {
+    font-family: Nunito;
+}
+
+#Cormorant_Garamond {
+    font-family: "Cormorant Garamond";
+}
+
+div.styles_block {
+    position: relative;
+    top: 72px;
+    margin-left: 10px;
+}
+
+
+section div.styles_block ul {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+section div.styles_block ul li {
+    list-style-type: none;
+    padding: 20px 0;
+}
+
+section div.styles_block ul li p{
+    list-style-type: none;
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+#page_heading {
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+#navigation_bar {
+    text-decoration: underline;
+    font-weight:300;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#section_name {
+    text-decoration: underline;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+#paragraph {
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+#text_sample {
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 400;
+}
