@@ -154,8 +154,20 @@ a #DarkOliveGreen:hover {
     color: white;
 }
 
+a #DarkSeaGreen:hover  {
+    background-color: #8FBC8F;
+    opacity: 0.5;
+    color: white;
+}
+
 #DarkOrange {
     background-color: #FF8C00;
+    color: white;
+}
+
+a #DarkOrange:hover {
+    background-color: #FF8C00;
+    opacity: 0.5;
     color: white;
 }
 
@@ -164,8 +176,20 @@ a #DarkOliveGreen:hover {
     color: white;
 }
 
+a #LightBlue:hover {
+    background-color: #ADD8E6;
+    opacity: 0.5;
+    color: white;
+}
+
 #LightSteelBlue {
+    background-color:#B0C4DE;
+    color: white;
+}
+
+a #LightSteelBlue:hover {
     background-color: #B0C4DE;
+    opacity: 0.5;
     color: white;
 }
 
@@ -174,8 +198,21 @@ a #DarkOliveGreen:hover {
     color: white;
 }
 
+a #LightSlateGray:hover {
+    background-color: #778899;
+    opacity: 0.5;
+    color: white;
+}
+
+
 #Sienna {
     background-color: #A0522D;
+    color: white;
+}
+
+a #Sienna:hover {
+    background-color: #A0522D;
+    opacity: 0.5;
     color: white;
 }
 
@@ -183,6 +220,13 @@ a #DarkOliveGreen:hover {
     background-color: #FA8072;
     color: white;
 }
+
+a #Salmon:hover {
+    background-color: #FA8072;
+    opacity: 0.5;
+    color: white;
+}
+
 
 
 
